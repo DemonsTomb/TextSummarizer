@@ -10,13 +10,13 @@ A command-line tool designed with `Click` to summarize texts using the `Ollama A
 ## Installation
 
 Install the required dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Create a .env file in the root directory and add the following environment variable:
-OLLAMA_API_URL=<your_ollama_api_url>
+`OLLAMA_API_URL=<your_ollama_api_url>`
 
 Summarize text from a file:
-python summarize.py -t path/to/your/textfile.txt
+`python summarize.py -t path/to/your/textfile.txt`
 
 Summarize text directly:
-python summarize.py "Your text to summarize goes here."
+`python summarize.py "Your text to summarize goes here."`
