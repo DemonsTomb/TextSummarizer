@@ -5,7 +5,9 @@ A command-line tool designed with `Click` to summarize texts using the `Ollama A
 ## Prerequisites
 
 - Python 3.6 or higher
+
 - `pip` for installing dependencies
+
 
 ## Installation
 
@@ -20,3 +22,7 @@ Summarize text from a file:
 
 Summarize text directly:
 `python summarize.py "Your text to summarize goes here."`
+
+##Output
+![file_output](https://github.com/user-attachments/assets/751d4fd8-8d4e-4658-98e6-810c86b81794)
+![text_output](https://github.com/user-attachments/assets/65441620-68bf-4d4d-968b-3c964ff555cb)
